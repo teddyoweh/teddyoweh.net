@@ -6,16 +6,18 @@ return(
 <>
     <nav>
         <div className="logo">
+        <a href="/">
             <label htmlFor="">teddy.</label>
+            </a>
         </div>
         
         <div className="nav-stuff">
             
-            <a href="">
+            <a href="/">
                 <label htmlFor="">Home</label>
                 <span className={props.page=='landing'?'active':null}></span>
             </a>
-            <a href="">
+            <a href="/about">
                 <label htmlFor="">About</label>
                 <span className={props.page=='about'?'active':null}></span>
             </a>

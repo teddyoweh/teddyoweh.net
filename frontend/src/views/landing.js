@@ -17,8 +17,48 @@ function LandingPage() {
       
       <div className="lastest-os">
     
-        <h4>Lastest OpenSource Release</h4>
-        <div className="box-stuff"></div>
+        <h5>Lastest OpenSource Release.</h5>
+        <div className="box-stuff">
+          
+          <div className="sidestuff">
+            <div className="dotset">
+              <div className="dot"></div>
+              <div className="arrow"></div>
+            </div>
+            <div className="dotset">
+              <div className="dot"></div>
+              <div className="arrow"></div>
+            </div>
+            <div className="dotset">
+              <div className="bigdot">
+                <div className="dot"></div>
+              </div>
+            </div>
+          </div>
+          <div className="content">
+           <p>
+           
+           <span> The latest open source release by <b>Teddy Oweh</b> is now available!</span>
+           
+          
+           <span> This release contains new features, bug fixes, and improvements. </span>
+           </p>
+           <div className="software-list">
+              <a href="">
+                <div className="software">
+                  <label htmlFor="">Beardb</label>
+                  <i class='bx bx-right-arrow-alt'></i>
+                </div>
+              </a>
+              <a href="">
+                <div className="software">
+                  <label htmlFor="">Omarke</label>
+                  <i class='bx bx-right-arrow-alt'></i>
+                </div>
+              </a>
+           </div>
+         </div>
+        </div>
   
       </div>
       

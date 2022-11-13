@@ -32,6 +32,9 @@ nav {
                 }
             }
             &:hover {
+                &.active {
+                    width: 100%;
+                }
                 span {
                     transition: 0.3s;
                     width: 50%;

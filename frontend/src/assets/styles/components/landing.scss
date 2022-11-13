@@ -1,3 +1,4 @@
+$appcolor:#1d2028;
 .landing {
     height: 100vh;
     display: flex;
@@ -17,12 +18,103 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        bottom: 14%;
+        bottom: 10%;
         padding: 3% 4%;
-        h4 {
+        h5 {
             color: white;
             font-weight: 900;
             font-family: QuickSand;
+        }
+        .box-stuff {
+            display: flex;
+            flex-direction: row;
+            .sidestuff {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: max-content;
+                .dotset {
+                    width: max-content;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .dot {
+                        height: 6px;
+                        width: 6px;
+                        background-color: white;
+                        border-radius: 100%;
+                    }
+                    .bigdot {
+                        border-style: solid;
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 100%;
+                        border-width: 1px;
+                        border-color: white;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .arrow {
+                        height: 40px;
+                        width: 1px;
+                        background-color: white;
+                    }
+                }
+            }
+            .content {
+                p {
+                    color: white;
+                    width: 100%;
+                    font-size: 13px;
+                    display: flex;
+                    flex-direction: column;
+                    span {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                }
+                .software-list {
+                    padding: 5px 20px;
+                    display: flex;
+                    flex-direction: row;
+                    a {
+                        margin-right: 1.5%;
+                    }
+                    .software {
+                        padding: 3px 12px;
+                        border-style: solid;
+                        background-color: white;
+                        width: max-content;
+                        border-radius: 30px;
+                        font-size: 15px;
+                        border-width: 1px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        color: $appcolor;
+                        transition: 0.5s;
+                        label {
+                            color: $appcolor;
+                            font-weight: bold;
+                        }
+                        i {
+                            transform: rotate(315deg);
+                            color: $appcolor;
+                            transition: 0.5s;
+                        }
+                        &:hover {
+                            i {
+                                transform: translateX(8px);
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

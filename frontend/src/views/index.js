@@ -7,6 +7,7 @@ import 'boxicons';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingPage from "./landing";
+import AboutPage from "./about";
 
 import ErrorPage from "./errors";
 
@@ -17,6 +18,11 @@ function Views() {
       element: <LandingPage/>,
       errorElement: <ErrorPage/>,
     },
+    
+    {
+    path: "/about",
+    element:<AboutPage/>,
+    }
    
     
     
