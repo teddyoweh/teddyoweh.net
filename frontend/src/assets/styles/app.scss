@@ -1,0 +1,15 @@
+// import all the  url styles from the components
+@import url('https://fonts.googleapis.com/css2?family=Itim:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Myeongjo:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('./components/nav.scss');
+@import url('./components/landing.scss');
+@import url('./components/about.scss');
+@import url('./components/contact.scss');
+@import url('./components/research.scss');
+@import url('./components/projects.scss');
+.app {
+    background: linear-gradient(45deg, #13161e, #1d2028);
+}
+
+a {
+    text-decoration: none;
+}

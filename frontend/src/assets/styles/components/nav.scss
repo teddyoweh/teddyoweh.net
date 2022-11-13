@@ -1,0 +1,42 @@
+nav {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    .nav-stuff {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        a {
+            color: white;
+            font-weight: 700;
+            margin-right: 3%;
+            font-family: 'Nanum Myeongjo';
+            text-transform: capitalize;
+            font-size: 16px;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            span {
+                background-color: white;
+                height: 1px;
+                width: 0%;
+                border-radius: 10px;
+                transition: 0.3s;
+                &.active {
+                    width: 50%;
+                }
+            }
+            &:hover {
+                span {
+                    transition: 0.3s;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
