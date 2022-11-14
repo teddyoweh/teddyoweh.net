@@ -23,7 +23,7 @@ return(
                 <span className={props.page=='about'?'active':null}></span>
             </a>
             
-            <a href="">
+            <a href="/research">
                 <label htmlFor="">Research</label>
                 <span className={props.page=='research'?'active':null}></span>
             </a>

@@ -61,6 +61,14 @@ function LandingPage() {
         </div>
   
       </div>
+      <div className="teddy-socials">
+       <a href="mailto:teddy@teddyoweh.net">MAIL</a>
+       <a href="https://www.github.com/teddyoweh">GITHUB</a>
+       <a href="https://www.linkedin.com/in/teddyoweh">LINKEDIN</a>
+       <a href="https://twitter.com/tedddyoweh">TWITTER</a>
+       <a href="https://www.instagram.com/teddyoweh_/">INSTAGRAM</a>
+      
+      </div>
       
     </div>
     

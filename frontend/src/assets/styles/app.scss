@@ -13,3 +13,19 @@
 a {
     text-decoration: none;
 }
+
+.teddy-socials {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 3%;
+    right: 0;
+    width: 100%;
+    justify-content: flex-end;
+    a {
+        color: white;
+        font-size: 11.5px;
+        margin-right: 1.5%;
+        font-family: quicksand;
+    }
+}

@@ -1,0 +1,65 @@
+.research {
+    .teddy-researchs {
+        display: flex;
+        flex-direction: column;
+        .research-i {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            padding: 10px 20px;
+            margin-bottom: 10%;
+            .res-hed {
+                display: flex;
+                flex-direction: column;
+                label {
+                    font-size: 25px;
+                    font-weight: 800;
+                    font-family: 'Nanum Myeongjo';
+                }
+                span {
+                    font-size: 18px;
+                    font-family: 'Nanum Myeongjo';
+                    font-weight: 800;
+                    color: #788092;
+                }
+            }
+            .res-body {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                .res-content {
+                    width: 50%;
+                    p {
+                        font-family: quicksand;
+                        font-size: 17px;
+                    }
+                    .teddy-mainimg {
+                        display: flex;
+                        flex-direction: row;
+                        img {
+                            height: 500px;
+                            width: 500px;
+                            object-fit: cover;
+                        }
+                        // img.img2 {
+                        //     height: 400px;
+                        //     width: 600px;
+                        // }
+                    }
+                }
+                .res-img {
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                    flex-direction: column;
+                    img.reg {
+                        height: 500px;
+                        width: 400px;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}

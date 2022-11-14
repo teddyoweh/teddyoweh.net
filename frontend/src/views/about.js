@@ -45,8 +45,7 @@ function AboutPage(props) {
               <div className="area-content">
               <label htmlFor=""> Network and Cloud Computing.</label>
               <p>
-              Building ML Alogrithms and ML Models is an aspect of programming, that comes relatively easy to me. I have developed various Ml algorithms, feature selection process and models to solve predetermined challenges, seemseslly developed
-                            APIs to carry out cross platform implementations, also participated in various research projects relating to the AI field.</p>
+              Proficient and skilled with working with cloud based platforms and Unix/Linux Operating Systems. Efficiently carrying out resource allocations on Linux. Developing secure Application Programming Interfaces (APIs) and deploying and various cloud platforms or LAN based systems. Develoud cloud services like Saas,Paas and Iaas Network Management on Linux Servers</p>
               
               </div>
              
