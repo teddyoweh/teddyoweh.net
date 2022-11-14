@@ -40,6 +40,16 @@
         }
         .area-of-sh {
             padding: 20px 0px;
+            display: flex;
+            flex-direction: row;
+            .area-content {
+                display: flex;
+                flex-direction: column;
+                color: white;
+                width: 40%;
+                label {}
+                p {}
+            }
         }
     }
 }

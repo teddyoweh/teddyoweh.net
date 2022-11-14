@@ -20,7 +20,12 @@ function AboutPage(props) {
                 <label htmlFor="">Area of Expertise.</label>
             </div>
             <div className="area-of-sh">
-            
+              <div className="area-content">
+              <label htmlFor="">Machine Learning Development</label>
+              <p>
+              Equipped with skills to efficiently deploy ML Models using various machine learning algorithms to devise new methods and algorithms to meet predetermined functionality goals. Exploratory data analysis skills, Sanitizing and cleaning Data. Creating graphical representations for visualizing the distribution of a dataset. Deploying models to live servers as APIs</p>
+              
+              </div>
             </div>
         </div>
         
