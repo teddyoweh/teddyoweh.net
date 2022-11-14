@@ -7,8 +7,8 @@ return(
     <nav>
         <div className="logo">
         <a href="/">
-            <label htmlFor="">TO.</label>
-            <img src={teddylogo} alt="Teddy Oweh Logo" />
+            <label htmlFor="">TEDDY.</label>
+            
             </a>
         </div>
         
