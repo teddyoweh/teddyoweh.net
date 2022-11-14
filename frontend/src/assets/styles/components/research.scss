@@ -63,3 +63,22 @@
         }
     }
 }
+
+@media screen and (max-width:768px) {
+    .research-i {
+        .res-body {
+            display: flex;
+            flex-direction: column !important;
+            .res-content {
+                width: 100% !important;
+                .teddy-mainimg img {
+                    height: 400px;
+                    width: 500px;
+                }
+            }
+            img.reg {
+                display: none !important;
+            }
+        }
+    }
+}

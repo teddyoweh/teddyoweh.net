@@ -62,3 +62,29 @@
         }
     }
 }
+
+@media screen and (max-width:768px) {
+    .about {
+        .teddy-cool {
+            display: flex;
+            flex-direction: column-reverse;
+            img {
+                margin-bottom: 2%;
+                width: 400px;
+            }
+            p {
+                width: 100%;
+            }
+        }
+        .teddy-info {
+            .area-of-sh {
+                padding: 0 10px;
+                display: flex;
+                flex-direction: column;
+                .area-content {
+                    width: 95%;
+                }
+            }
+        }
+    }
+}

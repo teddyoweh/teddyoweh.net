@@ -29,3 +29,10 @@ a {
         font-family: quicksand;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .teddy-socials {
+        justify-content: center;
+        a {}
+    }
+}
