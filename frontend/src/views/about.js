@@ -12,7 +12,7 @@ function AboutPage(props) {
         
         </div>
         <div className="teddy-cool">
-            <p>Coding is like a puzzle, and sometimes the best way to solve it is to take a step back and look at the big picture.</p>
+            <p>Coding is like a puzzle, and sometimes the best way to solve it is to take a step back and look at the big picture. -  <b> <i>Teddy Oweh</i></b></p>
             <img src={teddyimg} alt="Teddy Oweh" />
         </div>
         <div className="teddy-info">
