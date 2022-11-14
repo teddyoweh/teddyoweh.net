@@ -21,11 +21,35 @@ function AboutPage(props) {
             </div>
             <div className="area-of-sh">
               <div className="area-content">
-              <label htmlFor="">Machine Learning Development</label>
+              <label htmlFor="">Algorithm Design.</label>
               <p>
-              Equipped with skills to efficiently deploy ML Models using various machine learning algorithms to devise new methods and algorithms to meet predetermined functionality goals. Exploratory data analysis skills, Sanitizing and cleaning Data. Creating graphical representations for visualizing the distribution of a dataset. Deploying models to live servers as APIs</p>
+              I have developed a keen eye for detail and a knack for designing alogithms to efficiently solve Algorithmic based challenges. I am also experienced in working with large data sets and have a good understanding of computational
+                            complexity.</p>
               
               </div>
+              <div className="area-content">
+              <label htmlFor="">Software Dev. (Fullstack).</label>
+              <p>
+              Probably can't say everything about my Software Development Skills, but i have been building scalable softwares ranging from Mobile, Web! and Desktop applications for over 5years, i have a knack of making my frontend design close
+                            to perfect, same goes with implementing backend functionalities, i have a handful of technical skills when working with .Net, Golang, Python Flasl/FastApi & NodeJs for API Development, ReactJS,NextJS ReactNative, (quite a number of them,
+                            *js frameworks*), Cloud Platforms like, Azure, Linode and Heroku.</p>
+              
+              </div>
+              <div className="area-content">
+              <label htmlFor=""> Machine Learning Dev & Data Analytics.</label>
+              <p>
+              Building ML Alogrithms and ML Models is an aspect of programming, that comes relatively easy to me. I have developed various Ml algorithms, feature selection process and models to solve predetermined challenges, seemseslly developed
+                            APIs to carry out cross platform implementations, also participated in various research projects relating to the AI field.</p>
+              
+              </div>
+              <div className="area-content">
+              <label htmlFor=""> Network and Cloud Computing.</label>
+              <p>
+              Building ML Alogrithms and ML Models is an aspect of programming, that comes relatively easy to me. I have developed various Ml algorithms, feature selection process and models to solve predetermined challenges, seemseslly developed
+                            APIs to carry out cross platform implementations, also participated in various research projects relating to the AI field.</p>
+              
+              </div>
+             
             </div>
         </div>
         

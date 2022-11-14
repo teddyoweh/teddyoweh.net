@@ -42,13 +42,22 @@
             padding: 20px 0px;
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
             .area-content {
                 display: flex;
                 flex-direction: column;
                 color: white;
-                width: 40%;
-                label {}
-                p {}
+                width: 30.3%;
+                margin-left: 2%;
+                margin-bottom: 1%;
+                label {
+                    font-weight: 600;
+                    font-size: 19px;
+                }
+                p {
+                    font-size: 14px;
+                }
             }
         }
     }
