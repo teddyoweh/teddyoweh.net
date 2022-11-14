@@ -1,5 +1,5 @@
 import React from "react";
-
+import teddylogo from '../assets/images/TO.png'
 function NavBar(props){
 
 return(
@@ -7,7 +7,8 @@ return(
     <nav>
         <div className="logo">
         <a href="/">
-            <label htmlFor="">teddy.</label>
+            <label htmlFor="">TO.</label>
+            <img src={teddylogo} alt="Teddy Oweh Logo" />
             </a>
         </div>
         
