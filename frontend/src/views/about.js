@@ -13,7 +13,7 @@ function AboutPage(props) {
         </div>
         <div className="teddy-cool">
             <p>Coding is like a puzzle, and sometimes the best way to solve it is to take a step back and look at the big picture.</p>
-            <img src={teddyimg} alt="" />
+            <img src={teddyimg} alt="Teddy Oweh" />
         </div>
         <div className="teddy-info">
             <div className="area-sh">
