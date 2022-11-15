@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import teddyimg from '../assets/images/teddyoweh.jpeg';
 import { NavBar } from "../components";
+import {Helmet} from "react-helmet";
 function ContactPage(props) {
 const [name,setName] =  useState('')
 const [email,setEmail]=useState('')

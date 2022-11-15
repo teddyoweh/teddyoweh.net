@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import teddyimg from '../assets/images/teddyoweh.jpeg';
 import research1 from '../assets/images/research1.jpeg'
 import research2 from '../assets/images/research2.jpeg'

@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import teddyimg from '../assets/images/teddyoweh.jpeg';
 import { NavBar } from "../components";
-
+import {Helmet} from "react-helmet";
 function FilterLabel(props){
 
 const [active,setActive] =useState(false);
