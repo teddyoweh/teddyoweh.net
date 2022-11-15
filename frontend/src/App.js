@@ -4,7 +4,12 @@ import { Analytics } from '@vercel/analytics/react';
 import './assets/styles/app.scss'
 function App() {
   return (
-    <Views/>
+  <>
+   <Views/>
+    <Analytics />
+  </>
+   
+    
   );
 }
 
