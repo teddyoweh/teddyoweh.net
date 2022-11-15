@@ -20,6 +20,37 @@ const sendMessagetoTeddy = (e)=>{
   }
 }
   return (
+  <>
+     <Helmet>
+               <title>About • Teddy Oweh </title>
+    <meta name="description" content='Contact • Teddy Oweh | Software Engineer (ML) & Network Engineer.' />
+    <meta name="keywords" content="Teddy Oweh | Ifechukwudeni | Teddy Oweh"/>
+    <meta name="author" content="Teddy Oweh • Computer Scientist"/>
+    <meta name="generator" content="Teddy Oweh"/>
+    <link rel="canonical" href="https://teddyoweh.net/contact" />
+    <meta name="robots" content="index, follow"/>
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="Contact • Teddy Oweh" />
+
+    <meta property="og:description" content='Contact • Teddy Oweh | Software Engineer (ML) & Network Engineer.' />
+
+    <meta property="og:image" content={teddyimg} />
+
+    <meta property="og:url" content="https://teddyoweh.net/contact" />
+
+    <meta property="og:site_name" content="About • Teddy Oweh" />
+    <meta name="twitter:title" content="Teddy Oweh"/>
+
+    <meta name="twitter:description" content="Contact • Teddy Oweh | Software Engineer (ML) & Network Engineer."/>
+
+    <meta name="twitter:image" content={teddyimg}/>
+
+    <meta name="twitter:site" content="@tedddyoweh"/>
+
+    <meta name="twitter:creator" content="@tedddyoweh"/>
+            </Helmet>
+
     <div className="app">
   
     <NavBar page='contact'/>
@@ -115,7 +146,7 @@ const sendMessagetoTeddy = (e)=>{
         
         
     </div>
-    </div>
+    </div>  </>
   );
 }
 
