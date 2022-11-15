@@ -4,7 +4,7 @@ import {
 } from "react-router-dom";
 
 import 'boxicons';
-
+import { Analytics } from '@vercel/analytics/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingPage from "./landing";
 import AboutPage from "./about";
@@ -47,7 +47,13 @@ function Views() {
   
   ]);
   return (
+  <>
+  
+
     <RouterProvider router={router} />
+        <Analytics />
+        </>
+    
      
    
        

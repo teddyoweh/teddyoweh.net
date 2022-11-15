@@ -112,7 +112,74 @@ frameworks:['JSON '],
     
     ]
     
-    }
+    },
+    {
+        softwarename:'Transvarpy',
+        githuburl:'https://github.com/teddyoweh/transvarpy',
+        pypiurl:'https://pypi.org/project/transvarpy/',
+        liveurl:null,
+        aboutsoftware:'A new method of  declaring, assigning and editing variables in python, suitable for large scalabe variable declaration',
+        islanguages:true,
+        isframework:false,
+        istools:false,
+        languages:[
+        'Python '
+        ],
+        frameworks:null,
+        filters:[
+        'System Software',
+        'Algorithmic Design',
+        
+        ]
+        
+        },
+        {
+            softwarename:'Routes Plugin PHP',
+            githuburl:' https://github.com/teddyoweh/Routes-Plugin-PHP',
+            pypiurl:null,
+            liveurl:null,
+            aboutsoftware:'This plugin can be embedded in PHP application to give the web application specific routes/href',
+            islanguages:true,
+            isframework:false,
+            istools:false,
+            languages:[
+            'PHP '
+            ],
+            frameworks:null,
+            filters:[
+            'Backend',
+            'System Software',
+            'Algorithmic Design',
+            
+            ]
+            
+            },
+            
+            {
+                softwarename:'Geolocation Plugin PHP',
+                githuburl:'https://github.com/teddyoweh/Geo-Location-Plugin-PHP',
+                pypiurl:null,
+                liveurl:null,
+                aboutsoftware:'Geolocation Plugin was created with PHP, it uses makes an API Call, decodes the JSON response, and gets the IP address, city, country, zip code, and state on the client-side and can be implemented and added to any project as a plugin.',
+                islanguages:true,
+                isframework:false,
+                istools:false,
+                languages:[
+                'PHP '
+                ],
+                frameworks:null,
+                filters:[
+                'Backend',
+                'System Software',
+                'Algorithmic Design',
+                
+                ]
+                
+                },
+                
+            
+        
+       
  ]
  const filtersoftwaredata = (keyword) =>{
  console.log('yess',keyword)
