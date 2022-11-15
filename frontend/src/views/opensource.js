@@ -143,6 +143,38 @@ frameworks:['JSON '],
  const [filterdata, setFilterData]=useState([])
 
   return (
+  <>
+     <Helmet>
+               <title>OpenSource • Teddy Oweh </title>
+    <meta name="description" content='OpenSource • Teddy Oweh, OpenSource Softwares Developed by Teddy Oweh, Networking, ML, System and FullStack Softwares.' />
+    <meta name="keywords" content="Teddy Oweh | Ifechukwudeni | Teddy Oweh"/>
+    <meta name="author" content="Teddy Oweh • Computer Scientist"/>
+    <meta name="generator" content="Teddy Oweh"/>
+    <link rel="canonical" href="https://teddyoweh.net/opensource" />
+    <meta name="robots" content="index, follow"/>
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="OpenSource • Teddy Oweh" />
+
+    <meta property="og:description" content='OpenSource • Teddy Oweh, OpenSource Softwares Developed by Teddy Oweh, Networking, ML, System and FullStack Softwares.' />
+
+    <meta property="og:image" content={teddyimg} />
+
+    <meta property="og:url" content="https://teddyoweh.net/opensource" />
+
+    <meta property="og:site_name" content="OpenSource • Teddy Oweh" />
+    <meta name="twitter:title" content="Teddy Oweh"/>
+
+    <meta name="twitter:description" content="OpenSource • Teddy Oweh, OpenSource Softwares Developed by Teddy Oweh, Networking, ML, System and FullStack Softwares."/>
+
+    <meta name="twitter:image" content={teddyimg}/>
+
+    <meta name="twitter:site" content="@tedddyoweh"/>
+
+    <meta name="twitter:creator" content="@tedddyoweh"/>
+            </Helmet>
+
+
     <div className="app">
   
     <NavBar page='opensource'/>
@@ -254,6 +286,7 @@ frameworks:['JSON '],
         
     </div>
     </div>
+    </>
   );
 }
 

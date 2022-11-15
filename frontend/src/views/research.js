@@ -6,6 +6,37 @@ import research3 from '../assets/images/research3.jpeg'
 import { NavBar } from "../components";
 function ResearchPage(props) {
   return (
+  <>
+   <Helmet>
+               <title>Research • Teddy Oweh </title>
+    <meta name="description" content='Research • Teddy Oweh, Academia Research Projects.' />
+    <meta name="keywords" content="Teddy Oweh | Ifechukwudeni | Teddy Oweh"/>
+    <meta name="author" content="Teddy Oweh • Computer Scientist"/>
+    <meta name="generator" content="Teddy Oweh"/>
+    <link rel="canonical" href="https://teddyoweh.net/research" />
+    <meta name="robots" content="index, follow"/>
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="Research • Teddy Oweh" />
+
+    <meta property="og:description" content='Research • Teddy Oweh, Academia Research Projects. ' />
+
+    <meta property="og:image" content={teddyimg} />
+
+    <meta property="og:url" content="https://teddyoweh.net/research" />
+
+    <meta property="og:site_name" content="Research • Teddy Oweh" />
+    <meta name="twitter:title" content="Teddy Oweh"/>
+
+    <meta name="twitter:description" content="Research • Teddy Oweh, Academia Research Projects."/>
+
+    <meta name="twitter:image" content={teddyimg}/>
+
+    <meta name="twitter:site" content="@tedddyoweh"/>
+
+    <meta name="twitter:creator" content="@tedddyoweh"/>
+            </Helmet>
+
     <div className="app">
   
     <NavBar page='research'/>
@@ -104,6 +135,8 @@ function ResearchPage(props) {
         
     </div>
     </div>
+    
+    </>
   );
 }
 

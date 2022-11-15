@@ -15,7 +15,7 @@ function AboutPage(props) {
     <meta name="robots" content="index, follow"/>
     <meta property="og:type" content="website" />
 
-    <meta property="og:title" content="About •Teddy Oweh" />
+    <meta property="og:title" content="About • Teddy Oweh" />
 
     <meta property="og:description" content='About • Teddy Oweh | Software Engineer (ML) & Network Engineer.' />
 

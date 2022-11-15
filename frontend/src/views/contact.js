@@ -22,7 +22,7 @@ const sendMessagetoTeddy = (e)=>{
   return (
   <>
      <Helmet>
-               <title>About • Teddy Oweh </title>
+               <title>Contact • Teddy Oweh </title>
     <meta name="description" content='Contact • Teddy Oweh | Software Engineer (ML) & Network Engineer.' />
     <meta name="keywords" content="Teddy Oweh | Ifechukwudeni | Teddy Oweh"/>
     <meta name="author" content="Teddy Oweh • Computer Scientist"/>
