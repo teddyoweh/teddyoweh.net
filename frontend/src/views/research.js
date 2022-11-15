@@ -23,7 +23,11 @@ function ResearchPage(props) {
         <label htmlFor="">
         Model of Disease Spread Using Stochastic Processes on Networks.
         </label>
-        <span>Student Researcher (Mathematics Department, Tarleton State University) </span>
+        <span>Student Researcher (Mathematics Department, Tarleton State University)
+        <small>Faculty:
+        <a href="mailto:scook@tarleton.edu"><b> Dr. Scott Cook</b></a>
+        ,
+        <a href="mailto:cmitchell@tarleton.edu"><b>Dr. Chris Mitchell</b></a></small></span>
         
         </div>
         
@@ -63,7 +67,12 @@ function ResearchPage(props) {
         <label htmlFor="">
         Hybrid Feature Selection for Machine Learning Models.
         </label>
-        <span>Lead Student Researcher (Electrical & Computer Science Department, Tarleton State University) </span>
+        <span>
+        
+        Lead Student Researcher (Electrical & Computer Science Department, Tarleton State University)
+       <small>Faculty: <a href="mailto:sadashiva@tarleton.edu">Dr. Thejas Gubbi Sadashiva.</a></small> 
+        </span>
+        
         
         </div>
         

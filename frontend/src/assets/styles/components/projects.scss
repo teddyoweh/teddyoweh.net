@@ -1,0 +1,146 @@
+.teddy-opensource {
+    padding-top: 1% !important;
+    padding: 10px 10px;
+    .searchsoftwares {
+        .inputbox {
+            width: 100%;
+            background: #292e3a;
+            color: white;
+            padding: 3px 11px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            input {
+                background: transparent;
+                border: none;
+                width: 100%;
+                outline: none;
+                color: white;
+                padding: 4px 10px;
+            }
+        }
+        .filters {
+            margin-top: 1.5%;
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            label {
+                text-transform: capitalize;
+                margin-bottom: 7px;
+                margin-right: 8px;
+                border-radius: 30px;
+                font-size: 12px;
+                padding: 4px 15px;
+                color: #c7cfe1;
+                border-style: solid;
+                border-width: 1px;
+                cursor: pointer;
+                &:hover {
+                    background: #99a3b6;
+                    color: #161a22;
+                }
+                &.active {
+                    background: #c6cfe1;
+                    color: #1c1e27;
+                }
+            }
+        }
+    }
+    .teddys-cool-softwares {
+        padding: 2% 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .teddys-software {
+            border-radius: 10px;
+            margin-right: 1.5%;
+            width: 40%;
+            background: #292e3a;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #08090e5e;
+            .top {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                color: white;
+                label {
+                    width: 50%;
+                    font-family: "Nanum Myeongjo";
+                    font-weight: 800;
+                    font-size: 21px;
+                }
+                span {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    color: white;
+                    a {
+                        color: white;
+                        font-size: 22px;
+                        margin-right: 3%;
+                    }
+                }
+            }
+            .filters {
+                margin-top: 1.5%;
+                flex-direction: row;
+                display: flex;
+                flex-wrap: wrap;
+                label {
+                    text-transform: capitalize;
+                    margin-bottom: 7px;
+                    margin-right: 8px;
+                    border-radius: 30px;
+                    font-size: 9px;
+                    padding: 3px 10px;
+                    color: #c7cfe1;
+                    border-style: solid;
+                    border-width: 1px;
+                    cursor: pointer;
+                    &:hover {
+                        background: #99a3b6;
+                        color: #161a22;
+                    }
+                    &.active {
+                        background: #c6cfe1;
+                        color: #1c1e27;
+                    }
+                }
+            }
+            .main-content {
+                p {
+                    color: white;
+                    font-family: poppins;
+                    font-size: 16px;
+                }
+                .stuff-i-used-code-it {
+                    small {
+                        color: white;
+                        font-family: poppins;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .teddy-opensource {
+        .searchsoftwares {
+            .inputbox {
+                width: 100%;
+                margin-bottom: 3%;
+            }
+        }
+        .teddys-cool-softwares {
+            .teddys-software {
+                width: 100%;
+                margin-bottom: 2%;
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.contact {
+    .contact-teddy {
+        display: flex;
+        flex-direction: row;
+        .teddy-contact-form {
+            padding-left: 4%;
+            padding-top: 2%;
+            width: 61%;
+            form {
+                width: 100%;
+                padding-bottom: 10%;
+                .ind-box {
+                    margin-bottom: 2%;
+                    display: flex;
+                    flex-direction: column;
+                    label {
+                        font-size: 1.5rem;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                        color: white;
+                        font-family: "Nanum Myeongjo";
+                    }
+                    input,
+                    textarea {
+                        border-color: #292e3a;
+                        border-style: solid;
+                        border-width: 0px;
+                        outline: none;
+                        color: white;
+                        padding: 9px 10px;
+                        background-color: #282d39;
+                        border-radius: 6px;
+                        font-family: quicksand;
+                    }
+                    button {
+                        padding: 10px 17px;
+                        width: 28%;
+                        border-radius: 7px;
+                        background: #262b37;
+                        margin-top: 1%;
+                        color: white;
+                        border: none;
+                        box-shadow: 0px 0px 10px black;
+                        font-family: quicksand;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+        .teddy-contacts {
+            display: flex;
+            justify-content: center;
+            width: 33%;
+            padding-left: 5%;
+            margin-top: 6%;
+            border-left: 1px solid;
+            margin-left: 5%;
+            .teddy-contancts-a {
+                width: 100%;
+                .ind-contact {
+                    margin-bottom: 2%;
+                    padding: 10px;
+                    color: white;
+                    cursor: pointer;
+                    a {
+                        color: #757f95;
+                        cursor: pointer;
+                        i {
+                            cursor: pointer;
+                        }
+                        label {
+                            cursor: pointer;
+                            font-weight: 500;
+                            font-family: poppins;
+                            margin-left: 3%;
+                            font-size: 19px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

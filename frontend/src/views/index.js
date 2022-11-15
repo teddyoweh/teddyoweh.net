@@ -8,9 +8,11 @@ import 'boxicons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingPage from "./landing";
 import AboutPage from "./about";
+import OpenSourcePage from "./opensource";
 import ResearchPage from "./research";
 import ErrorPage from "./errors";
-
+import ContactPage from "./contact";
+ 
 function Views() {
   const router = createBrowserRouter([
     {
@@ -25,8 +27,18 @@ function Views() {
     },
     {
       path: "/research",
-      element:<ResearchPage/>,
-      }
+    element:<ResearchPage/>,
+    },
+    {
+      path: "/contact",
+      element:<ContactPage/>,
+      },
+      {
+        path: "/opensource",
+        element:< OpenSourcePage/>,
+        },
+      
+      
    
    
     

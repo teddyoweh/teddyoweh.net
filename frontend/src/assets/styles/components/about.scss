@@ -24,7 +24,7 @@
         img {
             height: 450px;
             width: 350px;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
     .teddy-info {
@@ -70,7 +70,7 @@
             flex-direction: column-reverse;
             img {
                 margin-bottom: 2%;
-                width: 400px;
+                width: 100%;
             }
             p {
                 width: 100%;

@@ -28,12 +28,12 @@ return(
                 <span className={props.page=='research'?'active':null}></span>
             </a>
             
-            <a href="">
+            <a href="/opensource">
                 <label htmlFor="">OpenSource</label>
                 <span className={props.page=='opensource'?'active':null}></span>
             </a>
         
-            <a href="">
+            <a href="/contact">
                 <label htmlFor="">Contact</label>
                 <span className={props.page=='contact'?'active':null}></span>
             </a>
