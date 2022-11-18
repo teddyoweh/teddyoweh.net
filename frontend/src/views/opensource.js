@@ -133,6 +133,26 @@ frameworks:['JSON '],
         ]
         
         },
+    {
+        softwarename:'Country Border Analysis',
+        githuburl:'https://github.com/teddyoweh/Country-Border-Analysis/',
+        pypiurl:null,
+        liveurl:null,
+        aboutsoftware:'Visually Analyzing Country Border Statistics',
+        islanguages:false,
+        isframework:false,
+        istools:true,
+        languages:[
+        'Python '
+        ],
+        frameworks:['Matplotlib ','Pandas ','Networkx '],
+        filters:[
+        'Data Analytics',
+        'Algorithmic Design',
+        
+        ]
+        
+        },
         {
             softwarename:'Sentiment Analysis Api',
             githuburl:'https://github.com/teddyoweh/Sentiment-Analysis-API',
