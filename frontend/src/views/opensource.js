@@ -171,6 +171,7 @@ frameworks:['JSON '],
             'Algorithmic Design',
             'Machine Learning',
             
+            
             ]
             
             },
@@ -178,8 +179,8 @@ frameworks:['JSON '],
                 softwarename:'Matrix Vector Algorithms',
                 githuburl:'https://github.com/teddyoweh/Vector-Algorithms',
                 pypiurl:null,
-                liveurl:'https://sentiment-analytics-api.herokuapp.com/?text=Im%20a%20developer',
-                aboutsoftware:' The Sentiment Analysis Api was created using python flask module,it allows users to parse a text or sentence throught the (?text) arguement, then view the sentiment analysis of that sentence. It can be implementable into a web application.',
+                liveurl:null,
+                aboutsoftware:' Designing and Implementing Matrix Vector Algorithms to Solving vectors related problem ( Vector Magnitude, Vector Dot Product, Vector Angle)                ',
                 islanguages:false,
                 isframework:false,
                 istools:true,
@@ -188,9 +189,7 @@ frameworks:['JSON '],
                 ],
                 frameworks:['Heroku'],
                 filters:[
-                'Machine Learning',
-                'Networking and Cloud Computing',
-                'Data Analytics',
+                'Algorithmic Design',
                
                 
                 ]
