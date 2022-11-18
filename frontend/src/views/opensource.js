@@ -174,6 +174,28 @@ frameworks:['JSON '],
             ]
             
             },
+            {
+                softwarename:'Matrix Vector Algorithms',
+                githuburl:'https://github.com/teddyoweh/Vector-Algorithms',
+                pypiurl:null,
+                liveurl:'https://sentiment-analytics-api.herokuapp.com/?text=Im%20a%20developer',
+                aboutsoftware:' The Sentiment Analysis Api was created using python flask module,it allows users to parse a text or sentence throught the (?text) arguement, then view the sentiment analysis of that sentence. It can be implementable into a web application.',
+                islanguages:false,
+                isframework:false,
+                istools:true,
+                languages:[
+                'Python, '
+                ],
+                frameworks:['Heroku'],
+                filters:[
+                'Machine Learning',
+                'Networking and Cloud Computing',
+                'Data Analytics',
+               
+                
+                ]
+                
+                },
         {
             softwarename:'Sentiment Analysis Api',
             githuburl:'https://github.com/teddyoweh/Sentiment-Analysis-API',
@@ -196,6 +218,7 @@ frameworks:['JSON '],
             ]
             
             },
+            
        
         {
             softwarename:'Routes Plugin PHP',
