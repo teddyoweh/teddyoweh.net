@@ -143,9 +143,9 @@ frameworks:['JSON '],
         isframework:false,
         istools:true,
         languages:[
-        'Python '
+        'Python, '
         ],
-        frameworks:['Matplotlib ','Pandas ','Networkx '],
+        frameworks:['Matplotlib, ','Pandas, ','Networkx '],
         filters:[
         'Data Analytics',
         'Algorithmic Design',
@@ -163,9 +163,9 @@ frameworks:['JSON '],
             isframework:false,
             istools:true,
             languages:[
-            'Python '
+            'Python ,'
             ],
-            frameworks:['Pandas','Numpy','Matplotlib','Seaborn','NLTK','Scikit-Learn'],
+            frameworks:['Pandas, ','Numpy, ','Matplotlib, ','Seaborn, ','NLTK, ','Scikit-Learn'],
             filters:[
             'Data Analytics',
             'Algorithmic Design',
