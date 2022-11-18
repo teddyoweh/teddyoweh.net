@@ -154,6 +154,27 @@ frameworks:['JSON '],
         
         },
         {
+            softwarename:'Microsoft-Data-Analysis-Problem',
+            githuburl:'https://github.com/teddyoweh/Microsoft-Data-Analysis-Problem',
+            pypiurl:null,
+            liveurl:null,
+            aboutsoftware:'Data Analysis and Machine Learning System Alogrithms i designed a text summary model to solve the microsoft movie data analysis problem',
+            islanguages:false,
+            isframework:false,
+            istools:true,
+            languages:[
+            'Python '
+            ],
+            frameworks:['Pandas','Numpy','Matplotlib','Seaborn','NLTK','Scikit-Learn'],
+            filters:[
+            'Data Analytics',
+            'Algorithmic Design',
+            'Machine Learning',
+            
+            ]
+            
+            },
+        {
             softwarename:'Sentiment Analysis Api',
             githuburl:'https://github.com/teddyoweh/Sentiment-Analysis-API',
             pypiurl:null,
