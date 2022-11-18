@@ -185,9 +185,9 @@ frameworks:['JSON '],
                 isframework:false,
                 istools:true,
                 languages:[
-                'Python, '
+                'Python '
                 ],
-                frameworks:['Heroku'],
+                frameworks:[''],
                 filters:[
                 'Algorithmic Design',
                
