@@ -12,7 +12,7 @@ import OpenSourcePage from "./opensource";
 import ResearchPage from "./research";
 import ErrorPage from "./errors";
 import ContactPage from "./contact";
- 
+ import Tracker from "../components/Tracker";
 function Views() {
   const router = createBrowserRouter([
     {
@@ -37,6 +37,12 @@ function Views() {
         path: "/opensource",
         element:< OpenSourcePage/>,
         },
+        
+        {
+        path:'/tracker',
+        
+      element:<Tracker/>
+        }
       
       
    
