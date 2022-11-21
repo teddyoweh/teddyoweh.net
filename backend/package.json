@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "server": "nodemon app.js",
+        "start": "node app.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
@@ -21,6 +21,7 @@
         "jsonwebtoken": "^8.5.1",
         "mongoose": "^6.5.2",
         "nodemailer": "^6.7.8",
+        "nodemon": "^2.0.19",
         "passport": "^0.6.0",
         "passport-jwt": "^4.0.0",
         "validator": "^13.7.0"

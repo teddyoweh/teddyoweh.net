@@ -19,7 +19,7 @@ export default function Tracker(){
           setloaded(true)
           data['userdata']=res.data
      console.log(data)
-     axios.post('http://10.119.134.208:9990/api/views/addvdata',data).then((res2) => {
+     axios.post('https://teddyowehapi.herokuapp.com/api/views/addvdata',data).then((res2) => {
       
         localStorage.setItem('viewid',JSON.stringify(res2.data))
 
