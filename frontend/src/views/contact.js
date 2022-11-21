@@ -9,7 +9,9 @@ const [email,setEmail]=useState('')
 const [subject,setSubject]=useState('')
 const [message,setMessage]=useState('')
 
-
+const [ipdata, setipData] = useState({});
+const data = deviceinfo()
+const [loaded, setloaded] = useState(false)
 
 const sendMessagetoTeddy = (e)=>{
   e.preventDefault()

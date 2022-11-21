@@ -1,5 +1,6 @@
 import React from "react";
 import { NavBar } from "../components";
+import teddyimg from '../assets/images/teddyoweh.jpeg';
 import {Helmet} from "react-helmet";
 function LandingPage() {
   return(
