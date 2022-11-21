@@ -7,8 +7,7 @@ export default function Tracker(){
     const [ipdata, setipData] = useState({});
     const data = deviceinfo()
     const [loaded, setloaded] = useState(false)
-    
-    // make function run only once
+ 
     const getipdata = useCallback(async () => {
       axios.get('https://ipapi.co/json/').then((res) => {
         
