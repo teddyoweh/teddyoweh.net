@@ -81,3 +81,27 @@
         }
     }
 }
+
+@media screen and (max-width:768px) {
+    .contact {
+        .contact-teddy {
+            display: flex;
+            flex-direction: column;
+            .teddy-contact-form {
+                padding: 2% 4%;
+                width: 100%;
+                form {
+                    .ind-box {
+                        button {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+            .teddy-contacts {
+                width: 100%;
+                border: none;
+            }
+        }
+    }
+}
