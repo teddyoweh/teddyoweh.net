@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import teddyimg from '../assets/images/teddyoweh.jpeg';
 import { NavBar } from "../components";
 import {Helmet} from "react-helmet";
+import {addcontact,deviceinfo} from'../utlilty'
 function ContactPage(props) {
 const [name,setName] =  useState('')
 const [email,setEmail]=useState('')
@@ -19,6 +20,8 @@ const sendMessagetoTeddy = (e)=>{
   subject:subject,
   message:message,
   }
+  
+  addcontact(body)
 }
   return (
   <>

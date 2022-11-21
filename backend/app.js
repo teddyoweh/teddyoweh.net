@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const config = require('./db');
 var cors = require('cors')
 const views = require('./routes/views');
-
+const contacts = require('./routes/contact');
 mongoose.connect(config.DB, { useNewUrlParser: true }).then(
     () => { console.log('Database is connected') },
     err => { console.log('Can not connect to the database' + err) }
@@ -23,6 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use('/api/views', views);
+app.use('/api/contacts', contacts);
 
 
 app.get('/', function(req, res) {

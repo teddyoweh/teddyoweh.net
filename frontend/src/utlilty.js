@@ -1,6 +1,29 @@
 import axios from 'axios'
 
+const addcontact = (cbody) => {
+    axios.get('https://ipapi.co/json/').then((res) => {
 
+
+
+
+        setipData(res.data)
+        setloaded(true)
+        data['userdata'] = res.data
+        data['name'] = cbody.name
+        data['email'] = cbody.email
+        data['subject'] = cbody.subject
+        data['message'] = cbody.message
+        axios.post('https://teddyowehapi.herokuapp.com/api/contacts/addcontact', data).then((res2) => {
+
+                localStorage.setItem('viewid', JSON.stringify(res2.data))
+
+
+            }
+
+        )
+    })
+
+}
 const deviceinfo = () => {
 
     var sBrowser, sUsrAg = navigator.userAgent;
@@ -48,4 +71,4 @@ const deviceinfo = () => {
     }
 }
 
-export { deviceinfo }
+export { deviceinfoa, addcontact }
