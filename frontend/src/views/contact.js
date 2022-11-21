@@ -65,7 +65,7 @@ const sendMessagetoTeddy = (e)=>{
         </div>
         <div className="contact-teddy">
         <div className="teddy-contact-form">
-        <form action="">
+        <form onSubmit={(e)=>sendMessagetoTeddy(e)} action="">
         
         <div className="ind-box">
         <label htmlFor="">Name</label>
@@ -91,7 +91,7 @@ const sendMessagetoTeddy = (e)=>{
         </div>
         
         <div className="ind-box">
-        <button>Send Message</button>
+        <button onClick={(e)=>sendMessagetoTeddy(e)} >Send Message</button>
         </div>
         
         </form>
