@@ -1,5 +1,5 @@
 // app.js -t3:16 -e3:16 -d3:16
-
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 const config = require('./db');
 var cors = require('cors')
 const views = require('./routes/views');
-
 const IPADDRESS = require('./ip')
 mongoose.connect(config.DB, { useNewUrlParser: true }).then(
     () => { console.log('Database is connected') },

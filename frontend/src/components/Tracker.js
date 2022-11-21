@@ -10,25 +10,30 @@ export default function Tracker(){
     
     // make function run only once
     const getipdata = useCallback(async () => {
-      axios.get('https://ident.me/').then((res) => {
+      axios.get('https://ipapi.co/json/').then((res) => {
         
-        axios.get(`http://api.ipstack.com/${res.data}?access_key=02f25d2b83a2d0881939cbf240aec3f1`).then((res1) => {
+ 
      
         
-            setipData(res1.data)
+            setipData(res.data)
           setloaded(true)
-          data['userdata']=res1.data
+          data['userdata']=res.data
      console.log(data)
-        
-        axios.post('http://10.46.168.176:9990/api/views/addvdata',data).then((res2) => {
-        
-          localStorage.setItem('viewid',JSON.stringify(res2.data))
-        })
-        })
-        })
+     axios.post('http://10.119.134.208:9990/api/views/addvdata',data).then((res2) => {
+      
+        localStorage.setItem('viewid',JSON.stringify(res2.data))
+
+
+      }
+      
+      )
+    })
+ 
     },[])
     useEffect(() => {
     getipdata()
+ 
+      
       
     
     },[  getipdata])
