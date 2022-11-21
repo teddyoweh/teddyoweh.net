@@ -14,7 +14,12 @@ const addcontact = (cbody, data) => {
         data['message'] = cbody.message
         axios.post('https://teddyowehapi.herokuapp.com/api/contacts/addcontact', data).then((res2) => {
 
-                localStorage.setItem('viewid', JSON.stringify(res2.data))
+                if (res2.data.state == true) {
+                    return true
+                } else {
+
+                    return false
+                }
 
 
             }

@@ -3,11 +3,14 @@ import teddyimg from '../assets/images/teddyoweh.jpeg';
 import { NavBar } from "../components";
 import {Helmet} from "react-helmet";
 import {addcontact,deviceinfo} from'../utlilty'
+import { set } from 'mongoose';
 function ContactPage(props) {
 const [name,setName] =  useState('')
 const [email,setEmail]=useState('')
 const [subject,setSubject]=useState('')
 const [message,setMessage]=useState('')
+const [msgstate,setmsgstate]=useState(false)
+const [msgsent,setmsgsent]=useState(false)
 
 const [ipdata, setipData] = useState({});
 const data = deviceinfo()
@@ -23,7 +26,12 @@ const sendMessagetoTeddy = (e)=>{
   message:message,
   }
   
-  addcontact(body,data)
+  const msfse = addcontact(body,data);
+  
+  setmsgstate(msfse)
+  setmsgsent(true)
+  
+   
 }
   return (
   <>
@@ -66,6 +74,15 @@ const sendMessagetoTeddy = (e)=>{
         
         </div>
         <div className="contact-teddy">
+        {msgsent==true&&<>
+        
+          <div class={"alert "+ msgstate==true?'alert-success':'alert-danger'} role="alert">
+{msgstate==true?
+<><i class="bx bxs-check-circle"></i> <label> Message Sent Successfully </label></>
+:
+<><i class='bx bxs-error-circle'></i> <label > Error Occurrred, Message Not Sent</label></>}
+</div>
+        </>}
         <div className="teddy-contact-form">
         <form onSubmit={(e)=>sendMessagetoTeddy(e)} action="">
         
