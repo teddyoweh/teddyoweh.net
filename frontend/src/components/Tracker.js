@@ -46,7 +46,7 @@ export default function Tracker(){
   
 return(
 <>
- tedd
+ 
 </>
 
 
