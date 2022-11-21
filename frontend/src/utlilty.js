@@ -71,4 +71,4 @@ const deviceinfo = () => {
     }
 }
 
-export { deviceinfoa, addcontact }
+export { deviceinfo, addcontact }
