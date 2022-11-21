@@ -28,7 +28,7 @@ const sendMessagetoTeddy = (e)=>{
      <Helmet>
                <title>Contact • Teddy Oweh </title>
     <meta name="description" content='Contact • Teddy Oweh | Software Engineer (ML) & Network Engineer.' />
-    <meta name="keywords" content="Teddy Oweh | Ifechukwudeni | Teddy Oweh"/>
+    <meta name="keywords" content="Teddy Oweh, Ifechukwudeni, Teddy Oweh Contact, Teddy Oweh Socials"/>
     <meta name="author" content="Teddy Oweh • Computer Scientist"/>
     <meta name="generator" content="Teddy Oweh"/>
     <link rel="canonical" href="https://teddyoweh.net/contact" />
@@ -43,8 +43,8 @@ const sendMessagetoTeddy = (e)=>{
 
     <meta property="og:url" content="https://teddyoweh.net/contact" />
 
-    <meta property="og:site_name" content="About • Teddy Oweh" />
-    <meta name="twitter:title" content="Teddy Oweh"/>
+    <meta property="og:site_name" content="Contact • Teddy Oweh" />
+    <meta name="twitter:title" content="Contact • Teddy Oweh"/>
 
     <meta name="twitter:description" content="Contact • Teddy Oweh | Software Engineer (ML) & Network Engineer."/>
 

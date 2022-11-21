@@ -1,8 +1,39 @@
 import React from "react";
 import { NavBar } from "../components";
+import {Helmet} from "react-helmet";
 function LandingPage() {
   return(
-  
+  <>
+   <Helmet>
+               <title>Teddy Oweh </title>
+    <meta name="description" content='Software Engineer (ML) & Network Engineer.' />
+    <meta name="keywords" content="Teddy Oweh, Ifechukwudeni, Teddy Oweh"/>
+    <meta name="author" content="Teddy Oweh • Computer Scientist"/>
+    <meta name="generator" content="Teddy Oweh"/>
+    <link rel="canonical" href="https://teddyoweh.net/about" />
+    <meta name="robots" content="index, follow"/>
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="Teddy Oweh" />
+
+    <meta property="og:description" content='Software Engineer (ML) & Network Engineer.' />
+
+    <meta property="og:image" content={teddyimg} />
+
+    <meta property="og:url" content="https://teddyoweh.net/about" />
+
+    <meta property="og:site_name" content="Teddy Oweh" />
+    <meta name="twitter:title" content="Teddy Oweh"/>
+
+    <meta name="twitter:description" content="Software Engineer (ML) & Network Engineer."/>
+
+    <meta name="twitter:image" content={teddyimg}/>
+
+    <meta name="twitter:site" content="@tedddyoweh"/>
+
+    <meta name="twitter:creator" content="@tedddyoweh"/>
+            </Helmet>
+
   <div className="app">
   
     <NavBar page='landing'/>
@@ -76,7 +107,7 @@ function LandingPage() {
     
       
     
-  </div>
+  </div>  </>
   )
   
   ;

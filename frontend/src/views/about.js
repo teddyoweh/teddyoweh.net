@@ -8,7 +8,7 @@ function AboutPage(props) {
    <Helmet>
                <title>About • Teddy Oweh </title>
     <meta name="description" content='About • Teddy Oweh | Software Engineer (ML) & Network Engineer.' />
-    <meta name="keywords" content="Teddy Oweh | Ifechukwudeni | Teddy Oweh"/>
+    <meta name="keywords" content="Teddy Oweh, Ifechukwudeni, Teddy Oweh"/>
     <meta name="author" content="Teddy Oweh • Computer Scientist"/>
     <meta name="generator" content="Teddy Oweh"/>
     <link rel="canonical" href="https://teddyoweh.net/about" />
@@ -24,7 +24,7 @@ function AboutPage(props) {
     <meta property="og:url" content="https://teddyoweh.net/about" />
 
     <meta property="og:site_name" content="About • Teddy Oweh" />
-    <meta name="twitter:title" content="Teddy Oweh"/>
+    <meta name="twitter:title" content="About • Teddy Oweh"/>
 
     <meta name="twitter:description" content="About • Teddy Oweh | Software Engineer (ML) & Network Engineer."/>
 

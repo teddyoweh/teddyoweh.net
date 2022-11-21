@@ -11,7 +11,7 @@ function ResearchPage(props) {
    <Helmet>
                <title>Research • Teddy Oweh </title>
     <meta name="description" content='Research • Teddy Oweh, Academia Research Projects.' />
-    <meta name="keywords" content="Teddy Oweh | Ifechukwudeni | Teddy Oweh"/>
+    <meta name="keywords" content="Teddy Oweh , Ifechukwudeni , Teddy Oweh Research"/>
     <meta name="author" content="Teddy Oweh • Computer Scientist"/>
     <meta name="generator" content="Teddy Oweh"/>
     <link rel="canonical" href="https://teddyoweh.net/research" />
@@ -27,7 +27,7 @@ function ResearchPage(props) {
     <meta property="og:url" content="https://teddyoweh.net/research" />
 
     <meta property="og:site_name" content="Research • Teddy Oweh" />
-    <meta name="twitter:title" content="Teddy Oweh"/>
+    <meta name="twitter:title" content="Research • Teddy Oweh"/>
 
     <meta name="twitter:description" content="Research • Teddy Oweh, Academia Research Projects."/>
 

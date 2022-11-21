@@ -300,7 +300,7 @@ frameworks:['JSON '],
      <Helmet>
                <title>OpenSource • Teddy Oweh </title>
     <meta name="description" content='OpenSource • Teddy Oweh, OpenSource Softwares Developed by Teddy Oweh, Networking, ML, System and FullStack Softwares.' />
-    <meta name="keywords" content="Teddy Oweh | Ifechukwudeni | Teddy Oweh"/>
+    <meta name="keywords" content="Teddy Oweh, Ifechukwudeni, Teddy Oweh Opensource, Teddy Oweh Projects, Teddy Oweh Softwares"/>
     <meta name="author" content="Teddy Oweh • Computer Scientist"/>
     <meta name="generator" content="Teddy Oweh"/>
     <link rel="canonical" href="https://teddyoweh.net/opensource" />
@@ -316,7 +316,7 @@ frameworks:['JSON '],
     <meta property="og:url" content="https://teddyoweh.net/opensource" />
 
     <meta property="og:site_name" content="OpenSource • Teddy Oweh" />
-    <meta name="twitter:title" content="Teddy Oweh"/>
+    <meta name="twitter:title" content="OpenSource • Teddy Oweh"/>
 
     <meta name="twitter:description" content="OpenSource • Teddy Oweh, OpenSource Softwares Developed by Teddy Oweh, Networking, ML, System and FullStack Softwares."/>
 
