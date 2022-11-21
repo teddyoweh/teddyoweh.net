@@ -31,6 +31,6 @@ app.get('/', function(req, res) {
 
 const PORT = process.env.PORT || 9990;
 
-app.listen('0.0.0.0', PORT, () => {
+app.listen(PORT, () => {
     console.log(`Server is running on  ${IPADDRESS}:${PORT}`);
 });

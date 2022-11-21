@@ -19,5 +19,5 @@ for (const name of Object.keys(nets)) {
     }
 }
 
-
-module.exports = results['eth0'][0]
+const ans = process.env.state == 'production' ? results['eth0'][0] : results['en0'][0]
+module.exports = ans
