@@ -20,4 +20,4 @@ for (const name of Object.keys(nets)) {
 }
 
 
-module.exports = results
+module.exports = results['eth0'][0]
