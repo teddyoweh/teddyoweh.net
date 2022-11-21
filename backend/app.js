@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const config = require('./db');
 var cors = require('cors')
 const views = require('./routes/views');
-const IPADDRESS = require('./ip')
+
 mongoose.connect(config.DB, { useNewUrlParser: true }).then(
     () => { console.log('Database is connected') },
     err => { console.log('Can not connect to the database' + err) }
@@ -32,5 +32,5 @@ app.get('/', function(req, res) {
 const PORT = process.env.PORT || 9990;
 
 app.listen(PORT, () => {
-    console.log(`Server is running on  ${IPADDRESS}:${PORT}`);
+    console.log(`Server is running on  :${PORT}`);
 });
