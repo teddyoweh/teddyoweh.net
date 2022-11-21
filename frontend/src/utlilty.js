@@ -1,13 +1,12 @@
 import axios from 'axios'
 
-const addcontact = (cbody) => {
+const addcontact = (cbody, data) => {
     axios.get('https://ipapi.co/json/').then((res) => {
 
 
 
 
-        setipData(res.data)
-        setloaded(true)
+
         data['userdata'] = res.data
         data['name'] = cbody.name
         data['email'] = cbody.email

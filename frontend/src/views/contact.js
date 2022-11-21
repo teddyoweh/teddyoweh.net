@@ -15,7 +15,7 @@ const [loaded, setloaded] = useState(false)
 
 const sendMessagetoTeddy = (e)=>{
   e.preventDefault()
-
+  
   const body ={
   name:name,
   email:email,
@@ -23,7 +23,7 @@ const sendMessagetoTeddy = (e)=>{
   message:message,
   }
   
-  addcontact(body)
+  addcontact(body,data)
 }
   return (
   <>
