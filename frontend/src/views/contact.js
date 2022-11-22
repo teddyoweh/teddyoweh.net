@@ -3,7 +3,7 @@ import teddyimg from '../assets/images/teddyoweh.jpeg';
 import { NavBar } from "../components";
 import {Helmet} from "react-helmet";
 import {addcontact,deviceinfo} from'../utlilty'
-import { set } from 'mongoose';
+ 
 function ContactPage(props) {
 const [name,setName] =  useState('')
 const [email,setEmail]=useState('')
@@ -74,16 +74,17 @@ const sendMessagetoTeddy = (e)=>{
         
         </div>
         <div className="contact-teddy">
+      
+        <div className="teddy-contact-form">
         {msgsent==true&&<>
         
-          <div class={"alert "+ msgstate==true?'alert-success':'alert-danger'} role="alert">
+        <div class={ msgstate==true?'alert alert-success':'alert alert-danger'} role="alert">
 {msgstate==true?
 <><i class="bx bxs-check-circle"></i> <label> Message Sent Successfully </label></>
 :
 <><i class='bx bxs-error-circle'></i> <label > Error Occurrred, Message Not Sent</label></>}
 </div>
-        </>}
-        <div className="teddy-contact-form">
+      </>}
         <form onSubmit={(e)=>sendMessagetoTeddy(e)} action="">
         
         <div className="ind-box">
