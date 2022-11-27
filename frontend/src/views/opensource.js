@@ -78,7 +78,7 @@ const filterSoftwareData = (softwareData, filters) => {
  softwarename:'Beardb',
  githuburl:'https://github.com/teddyoweh/Beardb',
  pypiurl:'https://pypi.org/project/Beardb/',
- aboutsoftware:'A Local System Based JSON Database system',
+ aboutsoftware:'Database system implementing encrypted versions JSON of data. Easy to access, manage and deploy remotely',
  islanguages:false,
  isframework:false,
  istools:true,
@@ -92,7 +92,27 @@ frameworks:['JSON '],
  'Networking and Cloud Computing'
  ]
  
- },{
+ },
+ {
+    softwarename:'Beardb MicroService',
+    githuburl:'https://github.com/teddyoweh/beardb-api',
+    pypiurl:'https://pypi.org/project/Beardb/',
+    aboutsoftware:'Beardb Microservice to deploy, create, access, update and delete data remotely.',
+    islanguages:false,
+    isframework:false,
+    istools:true,
+    languages:[
+    'Python, '
+    ],
+   frameworks:['JSON '],
+    filters:[
+    'System Software',
+    'Algorithmic Design',
+    'Networking and Cloud Computing'
+    ]
+    
+    },
+ {
     softwarename:'Omarke',
     githuburl:'https://github.com/teddyoweh/Omark',
     pypiurl:'https://pypi.org/project/Omarke/',
