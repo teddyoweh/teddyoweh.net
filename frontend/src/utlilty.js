@@ -21,12 +21,12 @@ const addcontact = (cbody, data) => {
 
                 }
 
-            )
-            .catch((err) => {
+            ).catch((err) => {
                 console.log(err)
                 return false
             })
     })
+
 
 }
 const deviceinfo = () => {
