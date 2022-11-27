@@ -1,6 +1,7 @@
 import axios from 'axios'
 
 const addcontact = (cbody, data) => {
+    let resdata = undefined
     axios.get('https://ipapi.co/json/').then((res) => {
 
 
@@ -14,10 +15,10 @@ const addcontact = (cbody, data) => {
         data['message'] = cbody.message
         axios.post('https://teddyowehapi.herokuapp.com/api/contacts/addcontact', data)
             .then((res2) => {
-                    console.log(res2.data)
+
                     if (res2.data.state) {
-                        return true
-                    } else { return false }
+                        resdata = true
+                    } else { resdata = false }
 
 
 
@@ -25,7 +26,7 @@ const addcontact = (cbody, data) => {
 
             )
     })
-
+    return resdata
 
 }
 const deviceinfo = () => {

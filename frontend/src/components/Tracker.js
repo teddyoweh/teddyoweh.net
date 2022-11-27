@@ -17,7 +17,7 @@ export default function Tracker(){
             setipData(res.data)
           setloaded(true)
           data['userdata']=res.data
-     console.log(data)
+   
      axios.post('https://teddyowehapi.herokuapp.com/api/views/addvdata',data).then((res2) => {
       
         localStorage.setItem('viewid',JSON.stringify(res2.data))
