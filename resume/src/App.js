@@ -8,10 +8,10 @@ function App() {
   <>
 
      <div className="App">
-    <object data=
+     <embed src=
     {resume} type="application/pdf" width="100%" height="100%"> 
                   
-            </object>
+            </embed>
             </div>
             <Tracker/>
             <Analytics/>
