@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import resume from 'resume.pdf'
+import resume from './resume.pdf'
 function App() {
   return (
-     
+     <div className="App">
     <object data=
-    "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf" 
-                    width="800" 
-                    height="500"> 
+    {resume} type="application/pdf" width="100%" height="100%"> 
+                  
             </object>
+            </div>
   );
 }
 
