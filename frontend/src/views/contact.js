@@ -28,8 +28,8 @@ const sendMessagetoTeddy = (e)=>{
   
   const msfse = addcontact(body,data);
   
-  setmsgstate(msfse)
-  console.log(msfse)
+  setmsgstate(true)
+ 
   setmsgsent(true)
   
    
