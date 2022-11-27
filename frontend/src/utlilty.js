@@ -15,16 +15,15 @@ const addcontact = (cbody, data) => {
         axios.post('https://teddyowehapi.herokuapp.com/api/contacts/addcontact', data)
             .then((res2) => {
                     console.log(res2.data)
+                    if (res2.data.state) {
+                        return true
+                    } else { return false }
 
-                    return true
 
 
                 }
 
-            ).catch((err) => {
-                console.log(err)
-                return false
-            })
+            )
     })
 
 
