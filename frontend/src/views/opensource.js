@@ -134,6 +134,27 @@ frameworks:['JSON '],
     
     },
     {
+        softwarename:'TeddyOweh.net',
+        githuburl:'https://github.com/teddyoweh/teddyoweh.net',
+        pypiurl:null,
+        liveurl:'https://teddyoweh.net',
+        aboutsoftware:'This is my personal website built with ReactJS, Implemented Backend Functionalities with NodeJS and a NOSQL Database System (MONGODB) for Views Tracking and Storing Contact Messages.',
+        islanguages:false,
+        isframework:false,
+        istools:true,
+        languages:[
+        'ReactJS, NodeJS,'
+        ],
+        frameworks:['MongoDB'],
+        filters:[
+        'Frontend',
+        'Backend',
+        'Networking and Cloud Computing',
+        
+        ]
+        
+        },
+    {
         softwarename:'Transvarpy',
         githuburl:'https://github.com/teddyoweh/transvarpy',
         pypiurl:'https://pypi.org/project/transvarpy/',
