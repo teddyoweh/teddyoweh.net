@@ -14,17 +14,33 @@
         display: flex;
         flex-direction: row;
         padding: 4% 40px;
-        justify-content: space-between;
+        justify-content: center;
         width: 100%;
+        align-items: center;
+        label{
+            font-size: 35px;
+            font-family: "Nanum Myeongjo";
+            color: white;
+        }
         p {
             color: rgb(247, 248, 251);
             font-family: poppins;
-            width: 50%;
+            width: 61%;
+            display: flex;
+            flex-direction: column;
+        }
+        p.second{
+          width: 100%;;  
+        }
+        span{
+            display: flex;
+            flex-direction: column;
         }
         img {
             height: 450px;
-            width: 350px;
-            object-fit: contain;
+            width: 361px;
+            object-fit: cover;
+            margin-left: 26px;
         }
     }
     .teddy-info {

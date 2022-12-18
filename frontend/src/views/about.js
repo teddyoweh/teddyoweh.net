@@ -44,7 +44,15 @@ function AboutPage(props) {
         
         </div>
         <div className="teddy-cool">
-            <p>Coding is like a puzzle, and sometimes the best way to solve it is to take a step back and look at the big picture.   <b> - Teddy Oweh</b></p>
+
+            <p>
+              <label>"</label>
+              <p className='second'> Coding is like a puzzle, and sometimes the best way to solve it is to take a step back and look at the big picture.</p>
+              <span>
+              <b> - Teddy Oweh</b>
+              <small>Software Engineer (ML)  </small>
+              </span>
+              </p>
             <img src={teddyimg} alt="Teddy Oweh" />
         </div>
         <div className="teddy-info">

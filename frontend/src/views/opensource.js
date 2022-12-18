@@ -78,6 +78,7 @@ const filterSoftwareData = (softwareData, filters) => {
  softwarename:'Beardb',
  githuburl:'https://github.com/teddyoweh/Beardb',
  pypiurl:'https://pypi.org/project/Beardb/',
+ liveurl:'https://beardb.net',
  aboutsoftware:'Database system implementing encrypted versions JSON of data. Easy to access, manage and deploy remotely',
  islanguages:false,
  isframework:false,

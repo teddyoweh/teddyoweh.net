@@ -76,7 +76,7 @@ function LandingPage() {
            <span> This release contains new features, bug fixes, and improvements. </span>
            </p>
            <div className="software-list">
-              <a href="https://github.com/teddyoweh/Beardb">
+              <a href="https://beardb.net">
                 <div className="software">
                   <label htmlFor="">Beardb</label>
                   <i class='bx bx-right-arrow-alt'></i>
