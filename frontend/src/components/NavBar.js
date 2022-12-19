@@ -7,7 +7,7 @@ return(
     <nav>
         <div className="logo">
         <a href="/">
-            <label htmlFor="">TEDDY.</label>
+            <label htmlFor="">Teddy.</label>
             
             </a>
         </div>
