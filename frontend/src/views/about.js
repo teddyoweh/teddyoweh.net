@@ -46,7 +46,7 @@ function AboutPage(props) {
         <div className="teddy-cool">
 
             <p>
-              <label>"</label>
+   
               <p className='second'> Coding is like a puzzle, and sometimes the best way to solve it is to take a step back and look at the big picture.</p>
               <span>
               <b> - Teddy Oweh</b>
