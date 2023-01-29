@@ -13,7 +13,7 @@ const addcontact = (cbody, data) => {
         data['email'] = cbody.email
         data['subject'] = cbody.subject
         data['message'] = cbody.message
-        axios.post('https://teddyowehapi.herokuapp.com/api/contacts/addcontact', data)
+        axios.post('https://teddyowehnet-backend-production.up.railway.app/api/contacts/addcontact', data)
             .then((res2) => {
 
                     if (res2.data.state) {
