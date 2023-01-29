@@ -1,1 +1,0 @@
-# TeddyOweh.net Backend.
