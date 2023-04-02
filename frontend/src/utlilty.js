@@ -37,12 +37,10 @@ const deviceinfo = () => {
     if (window.navigator.appVersion.indexOf('Mac') !== -1) { operatingSystem = 'MacOS'; }
     if (window.navigator.appVersion.indexOf('X11') !== -1) { operatingSystem = 'UNIX OS'; }
     if (window.navigator.appVersion.indexOf('Linux') !== -1) { operatingSystem = 'Linux OS'; }
-    // The order matters here, and this may report false positives for unlisted browsers.
-
+ 
     if (sUsrAg.indexOf("Firefox") > -1) {
         sBrowser = "Mozilla Firefox";
-        // "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"
-    } else if (sUsrAg.indexOf("SamsungBrowser") > -1) {
+     } else if (sUsrAg.indexOf("SamsungBrowser") > -1) {
         sBrowser = "Samsung Internet";
         // "Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G955F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.4 Chrome/67.0.3396.87 Mobile Safari/537.36
     } else if (sUsrAg.indexOf("Opera") > -1 || sUsrAg.indexOf("OPR") > -1) {
