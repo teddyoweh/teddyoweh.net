@@ -4,8 +4,8 @@ import resume from './resume.pdf'
 import { Analytics } from '@vercel/analytics/react';
 import Tracker from './Tracker';
 function App() {
-  window.location.href='/static/media/resume.82889c21d68aca813270.pdf'
-  
+  window.location.href=resume
+ 
   return (
   <>
 
