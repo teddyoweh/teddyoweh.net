@@ -18,7 +18,7 @@ export default function Tracker(){
           setloaded(true)
           data['userdata']=res.data
      console.log(data)
-     axios.post('https://teddyowehnet-backend-production.up.railway.app/api/views/addvdata',data).then((res2) => {
+     axios.post('https://teddyoweh-net-backend-ed5a0e3eae91.herokuapp.com/views/addvdata',data).then((res2) => {
       
         localStorage.setItem('viewid',JSON.stringify(res2.data))
 
