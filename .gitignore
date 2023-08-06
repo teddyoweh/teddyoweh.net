@@ -1,7 +1,7 @@
 # History files
 .Rhistory
 .Rapp.history
-
+/node_modules
 # Session Data files
 .RData
 .RDataTmp

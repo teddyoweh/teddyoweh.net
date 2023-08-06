@@ -6,6 +6,8 @@ import Tracker from './Tracker';
 import React, {Component,useState, useEffect,useCallback} from 'react';
 import axios from 'axios'
 import { deviceinfo } from './utility';
+import { v4 } from "uuid";
+
 function App() {
   const deviceinfo = () => {
     if(localStorage.getItem('browserid')==null){
