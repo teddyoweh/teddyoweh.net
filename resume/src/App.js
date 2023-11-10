@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import resume from './resume.pdf'
+import resume_2 from './resume_ai.pdf'
 import { Analytics } from '@vercel/analytics/react';
 import Tracker from './Tracker';
 import React, {Component,useState, useEffect,useCallback} from 'react';
@@ -96,10 +97,16 @@ await axios.post(endpoints['tracker'] ,data).then((res2) => {
 })
 
 },[])
+const [resume_,setResume_] = useState()
   useEffect(() => {
     getipdata()
- 
-    window.location.href=resume
+    if(window.location.pathname=='/'){
+      setResume_(resume)
+    }
+    else if(window.location.pathname=='/resume'){
+      setResume_(resume_2)
+      window.location.href=resume_2
+    }
       
     
     },[  getipdata])
@@ -112,7 +119,7 @@ await axios.post(endpoints['tracker'] ,data).then((res2) => {
            
      <div className="App">
      <embed src=
-    {resume} type="application/pdf" width="100%" height="100%"> 
+    {resume_} type="application/pdf" width="100%" height="100%"> 
                   
             </embed>
             </div>
